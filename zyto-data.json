@@ -1,0 +1,65 @@
+{
+  "note": "SYNTHETIC demonstration dataset for the dashboard UI. No real client data. All biomarker values are round synthetic numbers (multiples of 10).",
+  "clientName": "Sample Client",
+  "scanDate": "2025-01-15",
+  "balanceScore": 72,
+  "voiceStressIndex": 50,
+  "categories": [
+    { "name": "Nervous System Load", "score": 70, "desc": "Demonstration category computed from synthetic sample biomarkers. This text exists to exercise the dashboard layout." },
+    { "name": "Recovery Reserves", "score": 75, "desc": "Demonstration category computed from synthetic sample biomarkers. This text exists to exercise the dashboard layout." },
+    { "name": "Inflammation", "score": 65, "desc": "Demonstration category computed from synthetic sample biomarkers. This text exists to exercise the dashboard layout." },
+    { "name": "Nutritional Coherence", "score": 80, "desc": "Demonstration category computed from synthetic sample biomarkers. This text exists to exercise the dashboard layout." },
+    { "name": "Mental Wellness", "score": 70, "desc": "Demonstration category computed from synthetic sample biomarkers. This text exists to exercise the dashboard layout." },
+    { "name": "Detoxification", "score": 75, "desc": "Demonstration category computed from synthetic sample biomarkers. This text exists to exercise the dashboard layout." }
+  ],
+  "emotions": [
+    { "name": "Jealous", "val": 30.00, "color": "#B88884" },
+    { "name": "Complacency", "val": 20.00, "color": "#C9A689" },
+    { "name": "Tense", "val": -20.00, "color": "#B88884" },
+    { "name": "Envy", "val": -10.00, "color": "#B88884" },
+    { "name": "Fear", "val": 25.00, "color": "#C9A689" },
+    { "name": "Grief", "val": 15.00, "color": "#C9A689" },
+    { "name": "Exhausted", "val": -15.00, "color": "#B88884" },
+    { "name": "Hate", "val": -25.00, "color": "#B88884" },
+    { "name": "Resentful", "val": 10.00, "color": "#8BA888" }
+  ],
+  "organs": [
+    { "name": "Brain / Pituitary", "value": 10.00, "status": "med", "x": 50, "y": 7, "desc": "Synthetic demonstration value." },
+    { "name": "Thyroid", "value": -10.00, "status": "med", "x": 50, "y": 12.5, "desc": "Synthetic demonstration value." },
+    { "name": "Heart", "value": -5.00, "status": "low", "x": 46, "y": 19.8, "desc": "Synthetic demonstration value." },
+    { "name": "Lungs", "value": 5.00, "status": "low", "x": 42, "y": 18.8, "desc": "Synthetic demonstration value." },
+    { "name": "Liver", "value": -5.00, "status": "low", "x": 56, "y": 27, "desc": "Synthetic demonstration value." },
+    { "name": "Stomach", "value": 20.00, "status": "med", "x": 46, "y": 26, "desc": "Synthetic demonstration value." },
+    { "name": "Spleen", "value": -20.00, "status": "med", "x": 41, "y": 26.7, "desc": "Synthetic demonstration value." },
+    { "name": "Pancreas", "value": 15.00, "status": "med", "x": 50, "y": 29, "desc": "Synthetic demonstration value." },
+    { "name": "Adrenal Glands", "value": 30.00, "status": "high", "x": 43, "y": 33, "desc": "Synthetic demonstration value." },
+    { "name": "Kidneys", "value": -15.00, "status": "med", "x": 41, "y": 34, "desc": "Synthetic demonstration value." },
+    { "name": "Small Intestine", "value": -20.00, "status": "med", "x": 50, "y": 36.5, "desc": "Synthetic demonstration value." },
+    { "name": "Large Intestine", "value": 0.00, "status": "low", "x": 50, "y": 41, "desc": "Synthetic demonstration value." },
+    { "name": "Bladder", "value": -10.00, "status": "med", "x": 50, "y": 49, "desc": "Synthetic demonstration value." },
+    { "name": "Uterus", "value": 20.00, "status": "med", "x": 50, "y": 53, "desc": "Synthetic demonstration value." }
+  ],
+  "insights": [
+    { "title": "Adrenal Dominance (Demo)", "type": "stress", "badge": "Priority", "text": "Sample insight card: in this synthetic dataset the Adrenal Glands read at +30.00 — the largest demo deviation. A real scan populates this card from the parsed PDF.", "detail": "Synthetic detail text. On a real dashboard this space describes what the pattern can feel like and a protocol to consider." },
+    { "title": "Dopamine Depletion Pattern (Demo)", "type": "stress", "badge": "Neuro", "text": "Sample insight card with synthetic markers: L-Dopa at -30.00 and Dopamine at -10.00.", "detail": "Synthetic detail text shown for dashboard demonstration only." },
+    { "title": "Spleen-Worry Loop (Demo)", "type": "warn", "badge": "TCM", "text": "Sample insight card: Spleen (-20.00) and the emotion Worry (+20.00) form a demo feedback loop.", "detail": "Synthetic detail text shown for dashboard demonstration only." },
+    { "title": "Spinal Holding Pattern (Demo)", "type": "warn", "badge": "Structural", "text": "Sample insight card: TH1 (-20.00), TH7 (-20.00), and TH10 (-20.00) show a synthetic clustered pattern.", "detail": "Synthetic detail text shown for dashboard demonstration only." },
+    { "title": "Strong Detox Capacity (Demo)", "type": "balance", "badge": "Asset", "text": "Sample insight card: Liver (-5.00) and Large Intestine (0.00) sit near range in the synthetic sample.", "detail": "Synthetic detail text shown for dashboard demonstration only." }
+  ],
+  "protocols": [
+    { "name": "Float Therapy", "score": 30.00, "icon": "", "category": "Nervous System", "desc": "Synthetic demo entry: 1,000 lbs of Epsom salt in zero gravity. Eliminates all sensory input." },
+    { "name": "PEMF Therapy", "score": 25.00, "icon": "", "category": "Cellular Repair", "desc": "Synthetic demo entry: pulsed electromagnetic fields stimulate cellular repair." },
+    { "name": "NeuroVIZR Brain Reset", "score": 20.00, "icon": "", "category": "Cognitive", "desc": "Synthetic demo entry: light and sound neurostimulation drives theta and alpha states." },
+    { "name": "Halotherapy", "score": 18.00, "icon": "", "category": "Respiratory", "desc": "Synthetic demo entry: Himalayan salt room microclimate." },
+    { "name": "Fire & Ice Contrast", "score": 15.00, "icon": "", "category": "Recovery", "desc": "Synthetic demo entry: infrared sauna paired with cold plunge." },
+    { "name": "Red Light Therapy", "score": 12.00, "icon": "", "category": "Cellular", "desc": "Synthetic demo entry: photobiomodulation penetrates tissue." }
+  ],
+  "topStressors": [
+    ["Adrenal Glands", 30.00],
+    ["L-Dopa", -30.00],
+    ["Jealous", 30.00],
+    ["GV-23-1a", 30.00],
+    ["Complacency", 20.00]
+  ],
+  "aiSummary": "Synthetic sample summary — no real scan behind these numbers. The demo dataset shows moderate, evenly distributed deviations with a balance score of 72. Adrenals (+30.00) are the largest synthetic stressor; detox pathways sit near range. This card exists to demonstrate the AI-summary UI and is replaced by parsed PDF data or a BYOK LLM call in real use."
+}

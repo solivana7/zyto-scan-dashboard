@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+*.log
+
+# Large media — host via Cloudinary/Cloudflare Stream, not git
+*.mp4
+*.mov
+
+# Sample assets we don't want in repo
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf

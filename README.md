@@ -1,6 +1,6 @@
 # SoliVana ZYTO Scan Dashboard
 
-**Live:** https://scan.solivana.ai — part of the SoliVana Wellness AI suite: instruments that measure and demonstrate how wellness affects biomarkers and everyday wellbeing.
+**Live:** https://zyto.solivana.ai — part of the SoliVana Wellness AI suite: instruments that measure and demonstrate how wellness affects biomarkers and everyday wellbeing.
 
 ## The problem
 
